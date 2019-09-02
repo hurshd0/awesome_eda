@@ -18,6 +18,8 @@ dependencies:
   - pdpbox
   - xgboost
   - pip
+  - jupyter
+  - jupyterlab
   - pip:
     - twine
     - pytest
