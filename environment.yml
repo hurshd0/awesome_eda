@@ -1,0 +1,23 @@
+name: awesome_eda
+channels:
+  - conda-forge
+  - plotly
+  - defaults
+dependencies:
+  - python=3.7
+  - matplotlib<=3.1.0
+  - pandas<=0.23.4
+  - plotly>=4.0
+  - numpy
+  - scipy
+  - scikit-learn
+  - seaborn
+  - category_encoders
+  - statsmodels
+  - shap
+  - pdpbox
+  - xgboost
+  - pip
+  - pip:
+    - twine
+    - pytest
