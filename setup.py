@@ -15,14 +15,13 @@ with open(readme_path, encoding='utf-8') as f:
 
 setup(
     name='awesome_eda',
-    version = '0.0',
+    version = '0.0.0',
 	packages=['awesome_eda'],
     description='Awesome EDA API to make EDA <-> Modeling process easier',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author = 'Harsh Desai',
     author_email = 'hurshd0@gmail.com',
-    license='MIT',
     url='https://github.com/hurshd0/awesome-eda/',
-	classifiers = [],
+    license='MIT'
 )
