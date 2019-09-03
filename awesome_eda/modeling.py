@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.utils.multiclass import unique_labels
 from sklearn.feature_selection import f_regression, SelectKBest, f_classif
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-    from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 
 def subset_features(train, val, test, features, target):
