@@ -14,7 +14,7 @@ with open(readme_path, encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='awesome-eda',
+    name='awesome_eda',
     version = '0.0',
 	packages=['awesome_eda'],
     description='Awesome EDA API to make EDA <-> Modeling process easier',
@@ -25,18 +25,4 @@ setup(
     license='MIT',
     url='https://github.com/hurshd0/awesome-eda/',
 	classifiers = [],
-	install_requires=[
-          'pandas<=0.23.4',
-		  'matplotlib<=3.1.0',
-		  'plotly'>='4.0',
-          'numpy',
-          'scipy',
-		  'scikit-learn',
-		  'seaborn',
-		  'category_encoders',
-		  'statsmodel',
-		  'shap',
-		  'pdpbox',
-		  'xgboost'
-      ],
 )
