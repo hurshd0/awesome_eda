@@ -16,6 +16,9 @@ Description: Package that contains many helpful utility functions to speed up ED
   - pdpbox
   - xgboost
 
+### Usage:
+`pip install -i https://test.pypi.org/simple/ super-awesome-eda`
+
 ### Example:
 
 #### Correlation Heatmap function
